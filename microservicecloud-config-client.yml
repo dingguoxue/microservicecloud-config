@@ -17,12 +17,12 @@ spring:
    profiles: dev    
    application:
         
-      name:microservicecloud-config-client    
+      name: microservicecloud-config-client    
 
 eureka:
    client:
       serviceUrl:
-         defaultZone:http://eureka-dev.com:7001/erueka/
+         defaultZone: http://eureka-dev.com:7001/erueka/
 
 ---
 server:
@@ -32,9 +32,9 @@ spring:
    profiles: test
    application:
         
-      name:microservicecloud-config-client    
+      name: microservicecloud-config-client    
 
 eureka:
    client:
       serviceUrl:
-         defaultZone:http://eureka-test.com:7001/erueka/
+         defaultZone: http://eureka-test.com:7001/erueka/
