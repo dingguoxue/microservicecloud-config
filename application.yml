@@ -1,35 +1,32 @@
 ﻿spring:
     
-	profiles:
+   profiles:
         
-		active:
+      active:
         
-		-dev
+         -dev
         
+
 
 
 ---
-
-
 spring:
 
-    	profiles: dev    #开发环境
+   profiles: dev    #开发环境
     
-	application:
+   application:
         
-		name:microservicecloud-config-kmkj-dev
+      name:microservicecloud-config-kmkj-dev
         
 
 ---
-
-
 spring:
 
-    	profiles: test   #测试环境
+   profiles: test   #测试环境
     
-	application:
+   application:
         
-		name: microservicecloud-config-kmkj-dev
+      name: microservicecloud-config-kmkj-dev
  
  
 #保存为UTF-8格式
